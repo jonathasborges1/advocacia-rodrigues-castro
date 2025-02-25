@@ -1,8 +1,12 @@
 name = "advocacia-rodrigues-castro"
 type = "javascript"
-account_id = "SUA_CLOUDFLARE_ACCOUNT_ID"
+account_id = "2cdb8330894945d94acbf1ee20001547"
 workers_dev = true
 compatibility_date = "2024-02-25"
 
 [site]
 bucket = ".next"
+
+[build]
+command = "npm run build"
+pages_build_output_dir = "out"
